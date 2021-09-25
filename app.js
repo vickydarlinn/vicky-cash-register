@@ -21,7 +21,7 @@ nextButton.addEventListener("click", function () {
 
 //cash given
 checkButton.addEventListener("click", function () {
-  let currencyGiven = [];
+  currencyGiven = [];
 
   if (cashGiven.value === "") {
     alert("please enter Cash given value");
