@@ -2,8 +2,8 @@
 const billAmount = document.querySelector("#billAmount");
 const cashGiven = document.querySelector("#cashGiven");
 const cashGivenDiv = document.querySelector(".cashGivenDiv");
-const checkButton = document.querySelector(".check");
-const nextButton = document.querySelector(".next");
+const checkButton = document.querySelector(".check_btn");
+const nextButton = document.querySelector(".next_btn");
 const output = document.querySelectorAll(".noOfNotes");
 const currencies = [2000, 500, 100, 20, 10, 5, 1];
 let currencyGiven = [];
