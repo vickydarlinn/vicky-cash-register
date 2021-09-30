@@ -8,7 +8,49 @@
     <title>Vicky's cash register</title>
   </head>
   <body>
-    <h1>Cash Register</h1>
+    <h1 class="app_heading">Cash Register</h1>
+
+    <section class="container">
+      <div class="app_container">
+        <div class="billamount">
+          <label for="billAmount">Bill Amount</label>
+          <input type="Number" id="billAmount" />
+        </div>
+        <button class="btn next_btn">Next</button>
+        <div class="cashGivenDiv hidden">
+          <label for="cashGiven">Cash Given</label>
+          <input id="cashGiven" type="Number" />
+        </div>
+        <button class="btn check_btn hidden">Check</button>
+        <h2 class="balance_heading label">Balance Amount</h2>
+        <div class="notes_table">
+          <div class="note_value">
+            <span class="note note_clr">Notes</span>
+            <span class="note note_clr">2000</span>
+            <span class="note note_clr">500</span>
+            <span class="note note_clr">100</span>
+            <span class="note note_clr">20</span>
+            <span class="note note_clr">10</span>
+            <span class="note note_clr">5</span>
+            <span class="note note_clr">1</span>
+          </div>
+          <div class="notes">
+            <div class="note_value">
+              <span class="note">No. of Notes</span>
+              <span class="note noOfNotes">0</span>
+              <span class="note noOfNotes">0</span>
+              <span class="note noOfNotes">0</span>
+              <span class="note noOfNotes">0</span>
+              <span class="note noOfNotes">0</span>
+              <span class="note noOfNotes">0</span>
+              <span class="note noOfNotes">0</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--
     <div>
       <label for="billAmount">Bill Amount</label>
       <input id="billAmount" type="Number" />
@@ -46,7 +88,7 @@
           </tr>
         </table>
       </div>
-    </div>
+    </div> -->
     <script src="app.js"></script>
   </body>
 </html>
